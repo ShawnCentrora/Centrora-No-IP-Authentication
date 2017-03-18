@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="authentication" method="upgrade">
+	<name>plg_authentication_joomla_noip</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2005</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>noip joomla authentication plugin</description>
+	<files>
+		<filename plugin="noip">noip.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_authentication_noip.ini</language>
+		<language tag="en-GB">en-GB.plg_authentication_noip.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="noip_dns"
+						type="textarea"
+						default=""
+						label="noip dns"
+						description="noip dns, separated by ','">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
