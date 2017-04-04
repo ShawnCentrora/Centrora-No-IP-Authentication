@@ -1,7 +1,7 @@
 Centrora No-IP Authentication plugin adds an additional check for the website admin account login at both back-end and front-end. 
 
 Restricting the IP access of the admin accounts can efficiently protect the website from the brute-force. Even the admin account has been stolen, setting the IP control can stop the hacker logging in the website to do more harms. However, it's not easy to restrict the IPs when you have a dynamic IP instead of the static IP. Centrora No-IP plugin can help in this case. You can generate a free host with No-IP and associate the host with your PC. Then you just need to whitelist the host with the plugin to grant the access to you PC only.
-
+ 
 ### Installation
 
 Please download the IP at [here](https://github.com/ShawnOSE/Centrora-No-IP-Authentication/archive/master.zip). Install it in Joomla! Extension --> Install. 
