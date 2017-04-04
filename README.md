@@ -23,7 +23,7 @@ Now, your PC has been associated with the hostname.
 3. Enable "plg_authentication_joomla_noip".
 4. Configure the plugin to input the no-ip hostnames. Separate them with ',' if there are multiple hostnames.
 
-### Test
+### Test 
 
 Now, let's see how it works. Go to the site login form (back-end or front-end) and login with the admin account from a PC without the No-IP Host associated. You will get the No Authentication error and the login is blocked.
 <img src="https://cdn.protect-website.co/centrora_web/images/Community/Centrora No-IP Authentication/2017-03-19_09-59-15.png">
